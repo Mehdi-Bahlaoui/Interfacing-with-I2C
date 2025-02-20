@@ -1,12 +1,15 @@
-#include <Wire.h>
-#include <LiquidCrystal_I2C.h>
+// #include <Wire.h>
+// #include <LiquidCrystal_I2C.h>
+// LiquidCrystal_I2C lcd(0x27, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);
 
-LiquidCrystal_I2C lcd(0x27, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);
+// int main(){
 
-int main(){
+//     init();
 
-    lcd.begin(20, 4); // initialize the lcd for 20 chars 4 lines and turn on backlight
-    lcd.setCursor(0, 0);
+//     lcd.begin(20, 4);
+//     lcd.setCursor(0, 0);
+//     lcd.print("Now, world?");
+    
 
-    lcd.print("Hello, world!");
-}
+//     return 0;
+// }
