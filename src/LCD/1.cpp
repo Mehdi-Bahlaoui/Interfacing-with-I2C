@@ -6,7 +6,7 @@
 
 //     init();
 
-//     lcd.begin(20, 4);
+//     lcd.begin(20, 2);
 //     lcd.setCursor(0, 0);
 //     lcd.print("Now, world?");
     
